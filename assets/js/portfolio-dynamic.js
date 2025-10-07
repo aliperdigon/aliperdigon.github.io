@@ -13,243 +13,404 @@
     {
       title: "Begonias",
       description: "Ejecución de obra",
-      thumb: "assets/img/begonias/begonias_pr.jpg",
-      full:  "assets/img/begonias/begonias_pr.jpg",
+      thumb: "assets/img/Begonias/begonias_1.jpg",
+      full:  "assets/img/Begonias/begonias_1.jpg",
       gallery: "portfolio-gallery-begnonias",
       categories: ["Begonias"]
     },
     {
-      title: "Kuest",
-      description: "Ejecución de obra",
-      thumb: "assets/img/kuest/kuest_pr.jpg",
-      full:  "assets/img/kuest/kuest_pr.jpg",
-      gallery: "portfolio-gallery-kuest",
-      categories: ["Kuest"]
-    },
-    {
       title: "Cafele",
       description: "Ejecución de obra",
-      thumb: "assets/img/cafele/cafele_pr.jpg",
-      full:  "assets/img/cafele/cafele_pr.jpg",
+      thumb: "assets/img/Cafele/cafele_1.jpg",
+      full:  "assets/img/Cafele/cafele_1.jpg",
       gallery: "portfolio-gallery-cafele",
       categories: ["Cafele"]
     },
     {
       title: "CTRL",
       description: "Ejecución de Obra",
-      thumb: "assets/img/ctrl/ctrl_pr.jpg",
-      full:  "assets/img/ctrl/ctrl_pr.jpg",
+      thumb: "assets/img/CTRL/ctrl_1.jpg",
+      full:  "assets/img/CTRL/ctrl_1.jpg",
       gallery: "portfolio-gallery-ctrl",
       categories: ["CTRL"]
     },
     {
+      title: "Danzsana",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Danzsana/danzsana_1.jpg",
+      full:  "assets/img/Danzsana/danzsana_1.jpg",
+      gallery: "portfolio-gallery-danzsana",
+      categories: ["Danzsana"]
+    },
+    {
+      title: "Fachada San Francisco",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Fachada San Francisco/fachada_1.jpg",
+      full:  "assets/img/Fachada San Francisco/fachada_1.jpg",
+      gallery: "portfolio-gallery-fachada-san-francisco",
+      categories: ["Fachada San Francisco"]
+    },
+    {
       title: "Fajas Colombianas",
       description: "Ejecución de Obra",
-      thumb: "assets/img/fajas_colombianas/fajas_pr.jpg",
-      full:  "assets/img/fajas_colombianas/fajas_pr.jpg",
+      thumb: "assets/img/Fajas Colombianas/fajas_1.jpg",
+      full:  "assets/img/Fajas Colombianas/fajas_1.jpg",
       gallery: "portfolio-gallery-fajas",
       categories: ["Fajas colombianas"]
+    },
+    {
+      title: "Kuest",
+      description: "Ejecución de obra",
+      thumb: "assets/img/Kuest/kuest_1.jpg",
+      full:  "assets/img/Kuest/kuest_1.jpg",
+      gallery: "portfolio-gallery-kuest",
+      categories: ["Kuest"]
+    },
+    {
+      title: "Pilates Angels",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Pilates Angels/pilates_1.jpg",
+      full:  "assets/img/Pilates Angels/pilates_1.jpg",
+      gallery: "portfolio-gallery-pilates-angels",
+      categories: ["Pilates Angels"]
     },
     {
       title: "Rise",
       description: "Ejecución de Obra",
-      thumb: "assets/img/rise/rise_1.jpg",
-      full:  "assets/img/rise/rise_1.jpg",
+      thumb: "assets/img/Rise/rise_1.jpg",
+      full:  "assets/img/Rise/rise_1.jpg",
       gallery: "portfolio-gallery-rise",
       categories: ["Rise"]
     },
     {
-      title: "Roof",
+      title: "Roof Garden",
       description: "Ejecución de Obra",
-      thumb: "assets/img/roof/roof_pr.jpg",
-      full:  "assets/img/roof/roof_pr.jpg",
+      thumb: "assets/img/Roof Garden/roof_1.jpg",
+      full:  "assets/img/Roof Garden/roof_1.jpg",
       gallery: "portfolio-gallery-roof",
-      categories: ["Roof"]
-    },
-    {
-      title: "Danszana",
-      description: "Ejecución de Obra",
-      thumb: "assets/img/danszana/danszana_pr.jpg",
-      full:  "assets/img/danszana/danszana_pr.jpg",
-      gallery: "portfolio-gallery-danszana",
-      categories: ["Danszana"]
+      categories: ["Roof Garden"]
     },
     {
       title: "Begonias",
       description: "Ejecución de obra",
-      thumb: "assets/img/begonias/begonias_1.jpg",
-      full:  "assets/img/begonias/begonias_1.jpg",
+      thumb: "assets/img/Begonias/begonias_2.jpg",
+      full:  "assets/img/Begonias/begonias_2.jpg",
       gallery: "portfolio-gallery-begnonias",
       categories: ["Begonias"]
     },
     {
-      title: "Kuest",
-      description: "Ejecución de obra",
-      thumb: "assets/img/kuest/kuest_1.jpg",
-      full:  "assets/img/kuest/kuest_1.jpg",
-      gallery: "portfolio-gallery-kuest",
-      categories: ["Kuest"]
-    },
-    {
       title: "Cafele",
       description: "Ejecución de obra",
-      thumb: "assets/img/cafele/cafele_1.jpg",
-      full:  "assets/img/cafele/cafele_1.jpg",
+      thumb: "assets/img/Cafele/cafele_2.jpg",
+      full:  "assets/img/Cafele/cafele_2.jpg",
       gallery: "portfolio-gallery-cafele",
       categories: ["Cafele"]
     },
     {
       title: "CTRL",
       description: "Ejecución de Obra",
-      thumb: "assets/img/ctrl/ctrl_1.jpg",
-      full:  "assets/img/ctrl/ctrl_1.jpg",
+      thumb: "assets/img/CTRL/ctrl_2.jpg",
+      full:  "assets/img/CTRL/ctrl_2.jpg",
       gallery: "portfolio-gallery-ctrl",
       categories: ["CTRL"]
     },
     {
+      title: "Danzsana",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Danzsana/danzsana_2.jpg",
+      full:  "assets/img/Danzsana/danzsana_2.jpg",
+      gallery: "portfolio-gallery-danzsana",
+      categories: ["Danzsana"]
+    },
+    {
+      title: "Fachada San Francisco",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Fachada San Francisco/fachada_2.jpg",
+      full:  "assets/img/Fachada San Francisco/fachada_2.jpg",
+      gallery: "portfolio-gallery-fachada-san-francisco",
+      categories: ["Fachada San Francisco"]
+    },
+    {
       title: "Fajas Colombianas",
       description: "Ejecución de Obra",
-      thumb: "assets/img/fajas_colombianas/fajas_1.jpg",
-      full:  "assets/img/fajas_colombianas/fajas_1.jpg",
+      thumb: "assets/img/Fajas Colombianas/fajas_2.jpg",
+      full:  "assets/img/Fajas Colombianas/fajas_2.jpg",
       gallery: "portfolio-gallery-fajas",
       categories: ["Fajas colombianas"]
+    },
+    {
+      title: "Kuest",
+      description: "Ejecución de obra",
+      thumb: "assets/img/Kuest/kuest_2.jpg",
+      full:  "assets/img/Kuest/kuest_2.jpg",
+      gallery: "portfolio-gallery-kuest",
+      categories: ["Kuest"]
+    },
+    {
+      title: "Pilates Angels",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Pilates Angels/pilates_2.jpg",
+      full:  "assets/img/Pilates Angels/pilates_2.jpg",
+      gallery: "portfolio-gallery-pilates-angels",
+      categories: ["Pilates Angels"]
     },
     {
       title: "Rise",
       description: "Ejecución de Obra",
-      thumb: "assets/img/rise/rise_pr.jpg",
-      full:  "assets/img/rise/rise_pr.jpg",
+      thumb: "assets/img/Rise/rise_2.jpg",
+      full:  "assets/img/Rise/rise_2.jpg",
       gallery: "portfolio-gallery-rise",
       categories: ["Rise"]
     },
     {
-      title: "Roof",
+      title: "Roof Garden",
       description: "Ejecución de Obra",
-      thumb: "assets/img/roof/roof_1.jpg",
-      full:  "assets/img/roof/roof_1.jpg",
+      thumb: "assets/img/Roof Garden/roof_2.jpg",
+      full:  "assets/img/Roof Garden/roof_2.jpg",
       gallery: "portfolio-gallery-roof",
-      categories: ["Roof"]
-    },
-    {
-      title: "Danszana",
-      description: "Ejecución de Obra",
-      thumb: "assets/img/danszana/danszana_1.jpg",
-      full:  "assets/img/danszana/danszana_1.jpg",
-      gallery: "portfolio-gallery-danszana",
-      categories: ["Danszana"]
+      categories: ["Roof Garden"]
     },
     {
       title: "Begonias",
       description: "Ejecución de obra",
-      thumb: "assets/img/begonias/begonias_2.jpg",
-      full:  "assets/img/begonias/begonias_2.jpg",
+      thumb: "assets/img/Begonias/begonias_3.jpg",
+      full:  "assets/img/Begonias/begonias_3.jpg",
       gallery: "portfolio-gallery-begnonias",
       categories: ["Begonias"]
     },
     {
-      title: "Kuest",
-      description: "Ejecución de obra",
-      thumb: "assets/img/kuest/kuest_2.jpg",
-      full:  "assets/img/kuest/kuest_2.jpg",
-      gallery: "portfolio-gallery-kuest",
-      categories: ["Kuest"]
-    },
-    {
       title: "Cafele",
       description: "Ejecución de obra",
-      thumb: "assets/img/cafele/cafele_2.jpg",
-      full:  "assets/img/cafele/cafele_2.jpg",
+      thumb: "assets/img/Cafele/cafele_3.jpg",
+      full:  "assets/img/Cafele/cafele_3.jpg",
       gallery: "portfolio-gallery-cafele",
       categories: ["Cafele"]
     },
     {
       title: "CTRL",
       description: "Ejecución de Obra",
-      thumb: "assets/img/ctrl/ctrl_2.jpg",
-      full:  "assets/img/ctrl/ctrl_2.jpg",
+      thumb: "assets/img/CTRL/ctrl_3.jpg",
+      full:  "assets/img/CTRL/ctrl_3.jpg",
       gallery: "portfolio-gallery-ctrl",
       categories: ["CTRL"]
     },
     {
+      title: "Danzsana",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Danzsana/danzsana_3.jpg",
+      full:  "assets/img/Danzsana/danzsana_3.jpg",
+      gallery: "portfolio-gallery-danzsana",
+      categories: ["Danzsana"]
+    },
+    {
+      title: "Fachada San Francisco",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Fachada San Francisco/fachada_3.jpg",
+      full:  "assets/img/Fachada San Francisco/fachada_3.jpg",
+      gallery: "portfolio-gallery-fachada-san-francisco",
+      categories: ["Fachada San Francisco"]
+    },
+    {
       title: "Fajas Colombianas",
       description: "Ejecución de Obra",
-      thumb: "assets/img/fajas_colombianas/fajas_2.jpg",
-      full:  "assets/img/fajas_colombianas/fajas_2.jpg",
+      thumb: "assets/img/Fajas Colombianas/fajas_3.jpg",
+      full:  "assets/img/Fajas Colombianas/fajas_3.jpg",
       gallery: "portfolio-gallery-fajas",
       categories: ["Fajas colombianas"]
     },
     {
-      title: "Roof",
-      description: "Ejecución de Obra",
-      thumb: "assets/img/roof/roof_2.jpg",
-      full:  "assets/img/roof/roof_2.jpg",
-      gallery: "portfolio-gallery-roof",
-      categories: ["Roof"]
-    },
-    {
-      title: "Danszana",
-      description: "Ejecución de Obra",
-      thumb: "assets/img/danszana/danszana_2.jpg",
-      full:  "assets/img/danszana/danszana_2.jpg",
-      gallery: "portfolio-gallery-danszana",
-      categories: ["Danszana"]
-    },
-    {
-      title: "Begonias",
-      description: "Ejecución de obra",
-      thumb: "assets/img/begonias/begonias_3.jpg",
-      full:  "assets/img/begonias/begonias_3.jpg",
-      gallery: "portfolio-gallery-begnonias",
-      categories: ["Begonias"]
-    },
-    {
       title: "Kuest",
       description: "Ejecución de obra",
-      thumb: "assets/img/kuest/kuest_3.jpg",
-      full:  "assets/img/kuest/kuest_3.jpg",
+      thumb: "assets/img/Kuest/kuest_3.jpg",
+      full:  "assets/img/Kuest/kuest_3.jpg",
       gallery: "portfolio-gallery-kuest",
       categories: ["Kuest"]
     },
     {
+      title: "Pilates Angels",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Pilates Angels/pilates_3.jpg",
+      full:  "assets/img/Pilates Angels/pilates_3.jpg",
+      gallery: "portfolio-gallery-pilates-angels",
+      categories: ["Pilates Angels"]
+    },
+    {
+      title: "Rise",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Rise/rise_3.jpg",
+      full:  "assets/img/Rise/rise_3.jpg",
+      gallery: "portfolio-gallery-rise",
+      categories: ["Rise"]
+    },
+    {
+      title: "Roof Garden",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Roof Garden/roof_3.jpg",
+      full:  "assets/img/Roof Garden/roof_3.jpg",
+      gallery: "portfolio-gallery-roof",
+      categories: ["Roof Garden"]
+    },
+    {
+      title: "Begonias",
+      description: "Ejecución de obra",
+      thumb: "assets/img/Begonias/begonias_4.jpg",
+      full:  "assets/img/Begonias/begonias_4.jpg",
+      gallery: "portfolio-gallery-begnonias",
+      categories: ["Begonias"]
+    },
+    {
       title: "Cafele",
       description: "Ejecución de obra",
-      thumb: "assets/img/cafele/cafele_3.jpg",
-      full:  "assets/img/cafele/cafele_3.jpg",
+      thumb: "assets/img/Cafele/cafele_4.jpg",
+      full:  "assets/img/Cafele/cafele_4.jpg",
       gallery: "portfolio-gallery-cafele",
       categories: ["Cafele"]
     },
     {
       title: "CTRL",
       description: "Ejecución de Obra",
-      thumb: "assets/img/ctrl/ctrl_3.jpg",
-      full:  "assets/img/ctrl/ctrl_3.jpg",
+      thumb: "assets/img/CTRL/ctrl_4.jpg",
+      full:  "assets/img/CTRL/ctrl_4.jpg",
       gallery: "portfolio-gallery-ctrl",
       categories: ["CTRL"]
     },
     {
+      title: "Danzsana",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Danzsana/danzsana_4.jpg",
+      full:  "assets/img/Danzsana/danzsana_4.jpg",
+      gallery: "portfolio-gallery-danzsana",
+      categories: ["Danzsana"]
+    },
+    {
+      title: "Fachada San Francisco",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Fachada San Francisco/fachada_4.jpg",
+      full:  "assets/img/Fachada San Francisco/fachada_4.jpg",
+      gallery: "portfolio-gallery-fachada-san-francisco",
+      categories: ["Fachada San Francisco"]
+    },
+    {
       title: "Fajas Colombianas",
       description: "Ejecución de Obra",
-      thumb: "assets/img/fajas_colombianas/fajas_3.jpg",
-      full:  "assets/img/fajas_colombianas/fajas_3.jpg",
+      thumb: "assets/img/Fajas Colombianas/fajas_4.jpg",
+      full:  "assets/img/Fajas Colombianas/fajas_4.jpg",
       gallery: "portfolio-gallery-fajas",
       categories: ["Fajas colombianas"]
     },
     {
-      title: "Roof",
-      description: "Ejecución de Obra",
-      thumb: "assets/img/roof/roof_3.jpg",
-      full:  "assets/img/roof/roof_3.jpg",
-      gallery: "portfolio-gallery-roof",
-      categories: ["Roof"]
+      title: "Kuest",
+      description: "Ejecución de obra",
+      thumb: "assets/img/Kuest/kuest_4.jpg",
+      full:  "assets/img/Kuest/kuest_4.jpg",
+      gallery: "portfolio-gallery-kuest",
+      categories: ["Kuest"]
     },
     {
-      title: "Danszana",
+      title: "Pilates Angels",
       description: "Ejecución de Obra",
-      thumb: "assets/img/danszana/danszana_3.jpg",
-      full:  "assets/img/danszana/danszana_3.jpg",
-      gallery: "portfolio-gallery-danszana",
-      categories: ["Danszana"]
-    }
+      thumb: "assets/img/Pilates Angels/pilates_4.jpg",
+      full:  "assets/img/Pilates Angels/pilates_4.jpg",
+      gallery: "portfolio-gallery-pilates-angels",
+      categories: ["Pilates Angels"]
+    },
+    {
+      title: "Rise",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Rise/rise_4.jpg",
+      full:  "assets/img/Rise/rise_4.jpg",
+      gallery: "portfolio-gallery-rise",
+      categories: ["Rise"]
+    },
+    {
+      title: "Roof Garden",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Roof Garden/roof_4.jpg",
+      full:  "assets/img/Roof Garden/roof_4.jpg",
+      gallery: "portfolio-gallery-roof",
+      categories: ["Roof Garden"]
+    },
+    {
+      title: "Begonias",
+      description: "Ejecución de obra",
+      thumb: "assets/img/Begonias/begonias_5.jpg",
+      full:  "assets/img/Begonias/begonias_5.jpg",
+      gallery: "portfolio-gallery-begnonias",
+      categories: ["Begonias"]
+    },
+    {
+      title: "Cafele",
+      description: "Ejecución de obra",
+      thumb: "assets/img/Cafele/cafele_5.jpg",
+      full:  "assets/img/Cafele/cafele_5.jpg",
+      gallery: "portfolio-gallery-cafele",
+      categories: ["Cafele"]
+    },
+    {
+      title: "CTRL",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/CTRL/ctrl_5.jpg",
+      full:  "assets/img/CTRL/ctrl_5.jpg",
+      gallery: "portfolio-gallery-ctrl",
+      categories: ["CTRL"]
+    },
+    {
+      title: "Danzsana",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Danzsana/danzsana_5.jpg",
+      full:  "assets/img/Danzsana/danzsana_5.jpg",
+      gallery: "portfolio-gallery-danzsana",
+      categories: ["Danzsana"]
+    },
+    {
+      title: "Fachada San Francisco",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Fachada San Francisco/fachada_5.jpg",
+      full:  "assets/img/Fachada San Francisco/fachada_5.jpg",
+      gallery: "portfolio-gallery-fachada-san-francisco",
+      categories: ["Fachada San Francisco"]
+    },
+    {
+      title: "Fajas Colombianas",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Fajas Colombianas/fajas_5.jpg",
+      full:  "assets/img/Fajas Colombianas/fajas_5.jpg",
+      gallery: "portfolio-gallery-fajas",
+      categories: ["Fajas colombianas"]
+    },
+    {
+      title: "Kuest",
+      description: "Ejecución de obra",
+      thumb: "assets/img/Kuest/kuest_5.jpg",
+      full:  "assets/img/Kuest/kuest_5.jpg",
+      gallery: "portfolio-gallery-kuest",
+      categories: ["Kuest"]
+    },
+    {
+      title: "Pilates Angels",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Pilates Angels/pilates_5.jpg",
+      full:  "assets/img/Pilates Angels/pilates_5.jpg",
+      gallery: "portfolio-gallery-pilates-angels",
+      categories: ["Pilates Angels"]
+    },
+    {
+      title: "Rise",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Rise/rise_5.jpg",
+      full:  "assets/img/Rise/rise_5.jpg",
+      gallery: "portfolio-gallery-rise",
+      categories: ["Rise"]
+    },
+    {
+      title: "Roof Garden",
+      description: "Ejecución de Obra",
+      thumb: "assets/img/Roof Garden/roof_5.jpg",
+      full:  "assets/img/Roof Garden/roof_5.jpg",
+      gallery: "portfolio-gallery-roof",
+      categories: ["Roof Garden"]
+    },
+    
   ];
 
   // ====== 2) Helpers ======
