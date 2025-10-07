@@ -664,6 +664,55 @@ section,
   line-height: 0;
 }
 
+/* Contenedor del bloque Servicios */
+.about-services {
+  margin-top: .5rem;
+}
+
+/* Lista interna con iconos bonitos */
+.about-services-list{
+  list-style: none;
+  padding: 0;
+  margin: .5rem 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .4rem .75rem;
+}
+
+/* En pantallas medianas: 2 columnas */
+@media (min-width: 768px){
+  .about-services-list{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.about-services-list li{
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  padding: .5rem .65rem;
+  border-radius: 12px;
+  background: rgba(0,0,0,.03);            /* sutil */
+  transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease;
+}
+
+.about-services-list li:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+  background: rgba(0,0,0,.04);
+}
+
+/* Icono */
+.about-services-list li > i{
+  font-size: 1.1rem;
+  opacity: .9;
+}
+
+/* Texto del servicio */
+.about-services-list li{
+  font-weight: 500;
+}
+
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
