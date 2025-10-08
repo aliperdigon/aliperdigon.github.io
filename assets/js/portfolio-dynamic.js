@@ -419,14 +419,6 @@
       categories: ["Begonias"]
     },
     {
-      title: "Cafele",
-      description: "Ejecución de obra",
-      thumb: "assets/img/Cafele/cafele_6.jpg",
-      full:  "assets/img/Cafele/cafele_6.jpg",
-      gallery: "portfolio-gallery-cafele",
-      categories: ["Cafele"]
-    },
-    {
       title: "CTRL",
       description: "Ejecución de Obra",
       thumb: "assets/img/CTRL/ctrl_6.jpg",
@@ -539,14 +531,6 @@
       categories: ["CTRL"]
     },
     {
-      title: "Danzsana",
-      description: "Ejecución de Obra",
-      thumb: "assets/img/Danzsana/danzsana_8.jpg",
-      full:  "assets/img/Danzsana/danzsana_8.jpg",
-      gallery: "portfolio-gallery-danzsana",
-      categories: ["Danzsana"]
-    },
-    {
       title: "Fachada San Francisco",
       description: "Ejecución de Obra",
       thumb: "assets/img/Fachada San Francisco/fachada_8.jpg",
@@ -611,28 +595,12 @@
       categories: ["Fajas colombianas"]
     },
     {
-      title: "Begonias",
-      description: "Ejecución de obra",
-      thumb: "assets/img/Begonias/begonias_10.jpg",
-      full:  "assets/img/Begonias/begonias_10.jpg",
-      gallery: "portfolio-gallery-begnonias",
-      categories: ["Begonias"]
-    },
-    {
       title: "Cafele",
       description: "Ejecución de obra",
       thumb: "assets/img/Cafele/cafele_10.jpg",
       full:  "assets/img/Cafele/cafele_10.jpg",
       gallery: "portfolio-gallery-cafele",
       categories: ["Cafele"]
-    },
-    {
-      title: "CTRL",
-      description: "Ejecución de Obra",
-      thumb: "assets/img/CTRL/ctrl_10.jpg",
-      full:  "assets/img/CTRL/ctrl_10.jpg",
-      gallery: "portfolio-gallery-ctrl",
-      categories: ["CTRL"]
     },
     {
       title: "Danzsana",
@@ -667,14 +635,6 @@
       categories: ["Cafele"]
     },
     {
-      title: "CTRL",
-      description: "Ejecución de Obra",
-      thumb: "assets/img/CTRL/ctrl_11.jpg",
-      full:  "assets/img/CTRL/ctrl_11.jpg",
-      gallery: "portfolio-gallery-ctrl",
-      categories: ["CTRL"]
-    },
-    {
       title: "Begonias",
       description: "Ejecución de obra",
       thumb: "assets/img/Begonias/begonias_12.jpg",
@@ -697,14 +657,6 @@
       full:  "assets/img/CTRL/ctrl_12.jpg",
       gallery: "portfolio-gallery-ctrl",
       categories: ["CTRL"]
-    },
-    {
-      title: "Begonias",
-      description: "Ejecución de obra",
-      thumb: "assets/img/Begonias/begonias_13.jpg",
-      full:  "assets/img/Begonias/begonias_13.jpg",
-      gallery: "portfolio-gallery-begnonias",
-      categories: ["Begonias"]
     },
     {
       title: "Cafele",
@@ -810,9 +762,6 @@
     const html = items.map(item => {
       const classes = (item.categories || [])
         .map(categoryClass).join(" ");
-      const detailsLink = item.detailsLink
-        ? `<a href="${item.detailsLink}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>`
-        : "";
 
       return `
       <div class="col-lg-4 col-md-6 portfolio-item isotope-item ${classes}">
@@ -820,8 +769,6 @@
         <div class="portfolio-info">
           <h4>${item.title}</h4>
           <p>${item.description || ""}</p>
-          <a href="${item.full}" title="${item.title}" data-gallery="${item.gallery || "portfolio-gallery"}" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-          ${detailsLink}
         </div>
       </div>`;
     }).join("");
