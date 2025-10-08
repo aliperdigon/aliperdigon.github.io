@@ -950,15 +950,6 @@ section,
   bottom: 0;
 }
 
-/* Imagen: natural, no cuadrada, pero con límites */
-.portfolio .portfolio-item img{
-  width: 100%;
-  height: auto;                       /* respeta proporción */
-  display: block;
-  max-height: clamp(220px, 28vw, 420px); /* tope suave: evita mega-altas */
-  /* object-fit no es necesario con height:auto */
-}
-
 /* Opcional: micro-animación para darle vida */
 .portfolio .portfolio-item img{
   transition: transform .25s ease;
