@@ -953,6 +953,7 @@ section,
 /* Opcional: micro-animación para darle vida */
 .portfolio .portfolio-item img{
   transition: transform .25s ease;
+  background: #eee;      /* esqueleto gris mientras carga */
 }
 .portfolio .portfolio-item:hover img{
   transform: scale(1.02);
