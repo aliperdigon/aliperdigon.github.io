@@ -45,16 +45,16 @@
     {
       title: "Fachada San Francisco",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fachada San Francisco/fachada_1.jpg",
-      full:  "assets/img/Fachada San Francisco/fachada_1.jpg",
+      thumb: "assets/img/Fachada_San_Francisco/fachada_1.jpg",
+      full:  "assets/img/Fachada_San_Francisco/fachada_1.jpg",
       gallery: "portfolio-gallery-fachada-san-francisco",
       categories: ["Fachada San Francisco"]
     },
     {
       title: "Fajas Colombianas",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fajas Colombianas/fajas_1.jpg",
-      full:  "assets/img/Fajas Colombianas/fajas_1.jpg",
+      thumb: "assets/img/Fajas_Colombianas/fajas_1.jpg",
+      full:  "assets/img/Fajas_Colombianas/fajas_1.jpg",
       gallery: "portfolio-gallery-fajas",
       categories: ["Fajas colombianas"]
     },
@@ -69,8 +69,8 @@
     {
       title: "Pilates Angels",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Pilates Angels/pilates_1.jpg",
-      full:  "assets/img/Pilates Angels/pilates_1.jpg",
+      thumb: "assets/img/Pilates_Angels/pilates_1.jpg",
+      full:  "assets/img/Pilates_Angels/pilates_1.jpg",
       gallery: "portfolio-gallery-pilates-angels",
       categories: ["Pilates Angels"]
     },
@@ -85,8 +85,8 @@
     {
       title: "Roof Garden",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Roof Garden/roof_1.jpg",
-      full:  "assets/img/Roof Garden/roof_1.jpg",
+      thumb: "assets/img/Roof_Garden/roof_1.jpg",
+      full:  "assets/img/Roof_Garden/roof_1.jpg",
       gallery: "portfolio-gallery-roof",
       categories: ["Roof Garden"]
     },
@@ -125,16 +125,16 @@
     {
       title: "Fachada San Francisco",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fachada San Francisco/fachada_2.jpg",
-      full:  "assets/img/Fachada San Francisco/fachada_2.jpg",
+      thumb: "assets/img/Fachada_San_Francisco/fachada_2.jpg",
+      full:  "assets/img/Fachada_San_Francisco/fachada_2.jpg",
       gallery: "portfolio-gallery-fachada-san-francisco",
       categories: ["Fachada San Francisco"]
     },
     {
       title: "Fajas Colombianas",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fajas Colombianas/fajas_2.jpg",
-      full:  "assets/img/Fajas Colombianas/fajas_2.jpg",
+      thumb: "assets/img/Fajas_Colombianas/fajas_2.jpg",
+      full:  "assets/img/Fajas_Colombianas/fajas_2.jpg",
       gallery: "portfolio-gallery-fajas",
       categories: ["Fajas colombianas"]
     },
@@ -149,8 +149,8 @@
     {
       title: "Pilates Angels",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Pilates Angels/pilates_2.jpg",
-      full:  "assets/img/Pilates Angels/pilates_2.jpg",
+      thumb: "assets/img/Pilates_Angels/pilates_2.jpg",
+      full:  "assets/img/Pilates_Angels/pilates_2.jpg",
       gallery: "portfolio-gallery-pilates-angels",
       categories: ["Pilates Angels"]
     },
@@ -165,8 +165,8 @@
     {
       title: "Roof Garden",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Roof Garden/roof_2.jpg",
-      full:  "assets/img/Roof Garden/roof_2.jpg",
+      thumb: "assets/img/Roof_Garden/roof_2.jpg",
+      full:  "assets/img/Roof_Garden/roof_2.jpg",
       gallery: "portfolio-gallery-roof",
       categories: ["Roof Garden"]
     },
@@ -205,16 +205,16 @@
     {
       title: "Fachada San Francisco",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fachada San Francisco/fachada_3.jpg",
-      full:  "assets/img/Fachada San Francisco/fachada_3.jpg",
+      thumb: "assets/img/Fachada_San_Francisco/fachada_3.jpg",
+      full:  "assets/img/Fachada_San_Francisco/fachada_3.jpg",
       gallery: "portfolio-gallery-fachada-san-francisco",
       categories: ["Fachada San Francisco"]
     },
     {
       title: "Fajas Colombianas",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fajas Colombianas/fajas_3.jpg",
-      full:  "assets/img/Fajas Colombianas/fajas_3.jpg",
+      thumb: "assets/img/Fajas_Colombianas/fajas_3.jpg",
+      full:  "assets/img/Fajas_Colombianas/fajas_3.jpg",
       gallery: "portfolio-gallery-fajas",
       categories: ["Fajas colombianas"]
     },
@@ -229,8 +229,8 @@
     {
       title: "Pilates Angels",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Pilates Angels/pilates_3.jpg",
-      full:  "assets/img/Pilates Angels/pilates_3.jpg",
+      thumb: "assets/img/Pilates_Angels/pilates_3.jpg",
+      full:  "assets/img/Pilates_Angels/pilates_3.jpg",
       gallery: "portfolio-gallery-pilates-angels",
       categories: ["Pilates Angels"]
     },
@@ -245,8 +245,8 @@
     {
       title: "Roof Garden",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Roof Garden/roof_3.jpg",
-      full:  "assets/img/Roof Garden/roof_3.jpg",
+      thumb: "assets/img/Roof_Garden/roof_3.jpg",
+      full:  "assets/img/Roof_Garden/roof_3.jpg",
       gallery: "portfolio-gallery-roof",
       categories: ["Roof Garden"]
     },
@@ -285,16 +285,16 @@
     {
       title: "Fachada San Francisco",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fachada San Francisco/fachada_4.jpg",
-      full:  "assets/img/Fachada San Francisco/fachada_4.jpg",
+      thumb: "assets/img/Fachada_San_Francisco/fachada_4.jpg",
+      full:  "assets/img/Fachada_San_Francisco/fachada_4.jpg",
       gallery: "portfolio-gallery-fachada-san-francisco",
       categories: ["Fachada San Francisco"]
     },
     {
       title: "Fajas Colombianas",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fajas Colombianas/fajas_4.jpg",
-      full:  "assets/img/Fajas Colombianas/fajas_4.jpg",
+      thumb: "assets/img/Fajas_Colombianas/fajas_4.jpg",
+      full:  "assets/img/Fajas_Colombianas/fajas_4.jpg",
       gallery: "portfolio-gallery-fajas",
       categories: ["Fajas colombianas"]
     },
@@ -309,8 +309,8 @@
     {
       title: "Pilates Angels",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Pilates Angels/pilates_4.jpg",
-      full:  "assets/img/Pilates Angels/pilates_4.jpg",
+      thumb: "assets/img/Pilates_Angels/pilates_4.jpg",
+      full:  "assets/img/Pilates_Angels/pilates_4.jpg",
       gallery: "portfolio-gallery-pilates-angels",
       categories: ["Pilates Angels"]
     },
@@ -325,8 +325,8 @@
     {
       title: "Roof Garden",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Roof Garden/roof_4.jpg",
-      full:  "assets/img/Roof Garden/roof_4.jpg",
+      thumb: "assets/img/Roof_Garden/roof_4.jpg",
+      full:  "assets/img/Roof_Garden/roof_4.jpg",
       gallery: "portfolio-gallery-roof",
       categories: ["Roof Garden"]
     },
@@ -365,16 +365,16 @@
     {
       title: "Fachada San Francisco",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fachada San Francisco/fachada_5.jpg",
-      full:  "assets/img/Fachada San Francisco/fachada_5.jpg",
+      thumb: "assets/img/Fachada_San_Francisco/fachada_5.jpg",
+      full:  "assets/img/Fachada_San_Francisco/fachada_5.jpg",
       gallery: "portfolio-gallery-fachada-san-francisco",
       categories: ["Fachada San Francisco"]
     },
     {
       title: "Fajas Colombianas",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fajas Colombianas/fajas_5.jpg",
-      full:  "assets/img/Fajas Colombianas/fajas_5.jpg",
+      thumb: "assets/img/Fajas_Colombianas/fajas_5.jpg",
+      full:  "assets/img/Fajas_Colombianas/fajas_5.jpg",
       gallery: "portfolio-gallery-fajas",
       categories: ["Fajas colombianas"]
     },
@@ -389,8 +389,8 @@
     {
       title: "Pilates Angels",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Pilates Angels/pilates_5.jpg",
-      full:  "assets/img/Pilates Angels/pilates_5.jpg",
+      thumb: "assets/img/Pilates_Angels/pilates_5.jpg",
+      full:  "assets/img/Pilates_Angels/pilates_5.jpg",
       gallery: "portfolio-gallery-pilates-angels",
       categories: ["Pilates Angels"]
     },
@@ -405,8 +405,8 @@
     {
       title: "Roof Garden",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Roof Garden/roof_5.jpg",
-      full:  "assets/img/Roof Garden/roof_5.jpg",
+      thumb: "assets/img/Roof_Garden/roof_5.jpg",
+      full:  "assets/img/Roof_Garden/roof_5.jpg",
       gallery: "portfolio-gallery-roof",
       categories: ["Roof Garden"]
     },
@@ -437,16 +437,16 @@
     {
       title: "Fachada San Francisco",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fachada San Francisco/fachada_6.jpg",
-      full:  "assets/img/Fachada San Francisco/fachada_6.jpg",
+      thumb: "assets/img/Fachada_San_Francisco/fachada_6.jpg",
+      full:  "assets/img/Fachada_San_Francisco/fachada_6.jpg",
       gallery: "portfolio-gallery-fachada-san-francisco",
       categories: ["Fachada San Francisco"]
     },
     {
       title: "Fajas Colombianas",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fajas Colombianas/fajas_6.jpg",
-      full:  "assets/img/Fajas Colombianas/fajas_6.jpg",
+      thumb: "assets/img/Fajas_Colombianas/fajas_6.jpg",
+      full:  "assets/img/Fajas_Colombianas/fajas_6.jpg",
       gallery: "portfolio-gallery-fajas",
       categories: ["Fajas colombianas"]
     },
@@ -493,16 +493,16 @@
     {
       title: "Fachada San Francisco",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fachada San Francisco/fachada_7.jpg",
-      full:  "assets/img/Fachada San Francisco/fachada_7.jpg",
+      thumb: "assets/img/Fachada_San_Francisco/fachada_7.jpg",
+      full:  "assets/img/Fachada_San_Francisco/fachada_7.jpg",
       gallery: "portfolio-gallery-fachada-san-francisco",
       categories: ["Fachada San Francisco"]
     },
     {
       title: "Fajas Colombianas",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fajas Colombianas/fajas_7.jpg",
-      full:  "assets/img/Fajas Colombianas/fajas_7.jpg",
+      thumb: "assets/img/Fajas_Colombianas/fajas_7.jpg",
+      full:  "assets/img/Fajas_Colombianas/fajas_7.jpg",
       gallery: "portfolio-gallery-fajas",
       categories: ["Fajas colombianas"]
     },
@@ -533,16 +533,16 @@
     {
       title: "Fachada San Francisco",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fachada San Francisco/fachada_8.jpg",
-      full:  "assets/img/Fachada San Francisco/fachada_8.jpg",
+      thumb: "assets/img/Fachada_San_Francisco/fachada_8.jpg",
+      full:  "assets/img/Fachada_San_Francisco/fachada_8.jpg",
       gallery: "portfolio-gallery-fachada-san-francisco",
       categories: ["Fachada San Francisco"]
     },
     {
       title: "Fajas Colombianas",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fajas Colombianas/fajas_8.jpg",
-      full:  "assets/img/Fajas Colombianas/fajas_8.jpg",
+      thumb: "assets/img/Fajas_Colombianas/fajas_8.jpg",
+      full:  "assets/img/Fajas_Colombianas/fajas_8.jpg",
       gallery: "portfolio-gallery-fajas",
       categories: ["Fajas colombianas"]
     },
@@ -581,16 +581,16 @@
     {
       title: "Fachada San Francisco",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fachada San Francisco/fachada_9.jpg",
-      full:  "assets/img/Fachada San Francisco/fachada_9.jpg",
+      thumb: "assets/img/Fachada_San_Francisco/fachada_9.jpg",
+      full:  "assets/img/Fachada_San_Francisco/fachada_9.jpg",
       gallery: "portfolio-gallery-fachada-san-francisco",
       categories: ["Fachada San Francisco"]
     },
     {
       title: "Fajas Colombianas",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fajas Colombianas/fajas_9.jpg",
-      full:  "assets/img/Fajas Colombianas/fajas_9.jpg",
+      thumb: "assets/img/Fajas_Colombianas/fajas_9.jpg",
+      full:  "assets/img/Fajas_Colombianas/fajas_9.jpg",
       gallery: "portfolio-gallery-fajas",
       categories: ["Fajas colombianas"]
     },
@@ -613,8 +613,8 @@
     {
       title: "Fajas Colombianas",
       description: "Ejecución de Obra",
-      thumb: "assets/img/Fajas Colombianas/fajas_10.jpg",
-      full:  "assets/img/Fajas Colombianas/fajas_10.jpg",
+      thumb: "assets/img/Fajas_Colombianas/fajas_10.jpg",
+      full:  "assets/img/Fajas_Colombianas/fajas_10.jpg",
       gallery: "portfolio-gallery-fajas",
       categories: ["Fajas colombianas"]
     },
@@ -757,24 +757,46 @@
     filtersEl.innerHTML = allLi + catLis;
   }
 
-  // ====== 4) Render de tarjetas ======
-  function renderItems(containerEl, items) {
-    const html = items.map(item => {
-      const classes = (item.categories || [])
-        .map(categoryClass).join(" ");
 
-      return `
+  // Suponiendo que tu arreglo original se llama `portfolioItems`
+const itemsWithDefaults = portfolioItems.map((it, i) => {
+  const eager = i < 10; // primeros 10 eager
+  return {
+    ...it,
+    // Si ya definiste `loading` en algún item, se respeta; si no, aplicamos el default por índice
+    loading: it.loading || (eager ? "eager" : "lazy"),
+    decoding: it.decoding || (eager ? "sync" : "async"),
+    fetchpriority: it.fetchpriority || (eager ? "high" : "low"),
+  };
+});
+
+// Llama a tu render con este arreglo
+function renderItems(containerEl, items) {
+  const html = items.map(item => {
+    const classes = (item.categories || []).map(c => `filter-${c.toLowerCase().replace(/\s+/g, '-')}`).join(' ');
+    const loading = item.loading || "lazy";
+    const decoding = item.decoding || (loading === "eager" ? "sync" : "async");
+    const fetchpriority = item.fetchpriority || (loading === "eager" ? "high" : "low");
+
+    return `
       <div class="col-lg-4 col-md-6 portfolio-item isotope-item ${classes}">
-        <img src="${item.thumb}" class="img-fluid" alt="${item.title}">
+        <img
+          src="${item.thumb}"
+          alt="${item.title}"
+          class="img-fluid"
+          loading="${loading}"
+          decoding="${decoding}"
+          fetchpriority="${fetchpriority}">
         <div class="portfolio-info">
           <h4>${item.title}</h4>
           <p>${item.description || ""}</p>
         </div>
-      </div>`;
-    }).join("");
+      </div>
+    `;
+  }).join("");
 
-    containerEl.innerHTML = html;
-  }
+  containerEl.innerHTML = html;
+}
 
   // ====== 5) Inicializa Isotope + filtros + GLightbox ======
   function initPortfolio(options) {
