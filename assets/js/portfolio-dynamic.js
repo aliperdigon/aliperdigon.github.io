@@ -1,6 +1,7 @@
 /* portfolio-dynamic.js
- * Renderiza filtros e ítems de un portafolio (Isotope + GLightbox) desde un arreglo JSON.
- * Requisitos: incluir Isotope y GLightbox antes de este script. Recomendado: imagesLoaded.
+ * Renderiza filtros e ítems de un portafolio (Isotope) desde un arreglo JSON.
+ * Modo optimizado: carga progresiva por “bloques” (paginación en el scroll).
+ * Requisitos: incluir Isotope antes de este script. Opcional: imagesLoaded.
  * HTML mínimo:
  *   <ul id="portfolio-filters" class="portfolio-filters isotope-filters"></ul>
  *   <div id="portfolio-container" class="row gy-4 isotope-container"></div>
@@ -738,14 +739,12 @@
       gallery: "portfolio-gallery-cafele",
       categories: ["Cafele"]
     },
-    
   ];
 
   // ====== 2) Helpers ======
   const slugify = (s) => s.toLowerCase()
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // quita acentos
     .replace(/\s+/g, "-").replace(/[^a-z0-9\-]/g, "");
-
   const categoryClass = (cat) => `filter-${slugify(cat)}`;
 
   // ====== 3) Render de filtros ======
@@ -757,29 +756,31 @@
     filtersEl.innerHTML = allLi + catLis;
   }
 
+  // ====== 4) Defaults de carga (primeros 10 eager; resto lazy) ======
+  const itemsWithDefaults = portfolioItems.map((it, i) => {
+    const eager = i < 10; // primeros 10 eager
+    return {
+      ...it,
+      loading: it.loading || (eager ? "eager" : "lazy"),
+      decoding: it.decoding || (eager ? "sync" : "async"),
+      fetchpriority: it.fetchpriority || (eager ? "high" : "low"),
+    };
+  });
 
-  // Suponiendo que tu arreglo original se llama `portfolioItems`
-const itemsWithDefaults = portfolioItems.map((it, i) => {
-  const eager = i < 10; // primeros 10 eager
-  return {
-    ...it,
-    // Si ya definiste `loading` en algún item, se respeta; si no, aplicamos el default por índice
-    loading: it.loading || (eager ? "eager" : "lazy"),
-    decoding: it.decoding || (eager ? "sync" : "async"),
-    fetchpriority: it.fetchpriority || (eager ? "high" : "low"),
-  };
-});
+  // ====== 5) Render + paginación progresiva ======
+  const PAGE_SIZE = 12;
+  let iso;                 // instancia Isotope
+  let renderedCount = 0;   // ítems ya pintados
 
-// Llama a tu render con este arreglo
-function renderItems(containerEl, items) {
-  const html = items.map(item => {
-    const classes = (item.categories || []).map(c => `filter-${c.toLowerCase().replace(/\s+/g, '-')}`).join(' ');
+  function templateItem(item) {
+    const classes = (item.categories || [])
+      .map(c => `isotope-item ${categoryClass(c)}`).join(' ') || 'isotope-item';
     const loading = item.loading || "lazy";
     const decoding = item.decoding || (loading === "eager" ? "sync" : "async");
     const fetchpriority = item.fetchpriority || (loading === "eager" ? "high" : "low");
 
     return `
-      <div class="col-lg-4 col-md-6 portfolio-item isotope-item ${classes}">
+      <div class="col-lg-4 col-md-6 portfolio-item ${classes}">
         <img
           src="${item.thumb}"
           alt="${item.title}"
@@ -791,19 +792,52 @@ function renderItems(containerEl, items) {
           <h4>${item.title}</h4>
           <p>${item.description || ""}</p>
         </div>
-      </div>
-    `;
-  }).join("");
+      </div>`;
+  }
 
-  containerEl.innerHTML = html;
-}
+  function renderChunk(containerEl, items, from, size) {
+    const slice = items.slice(from, from + size);
+    if (slice.length === 0) return;
 
-  // ====== 5) Inicializa Isotope + filtros + GLightbox ======
+    const tpl = document.createElement('div');
+    tpl.innerHTML = slice.map(templateItem).join("");
+    const nodes = Array.from(tpl.children);
+
+    // Inserta en el DOM
+    nodes.forEach(n => containerEl.appendChild(n));
+
+    // Si hay imagesLoaded, espera las nuevas imágenes antes de avisar a Isotope
+    const finalizeAppend = () => {
+      if (iso) {
+        iso.appended(nodes);
+        iso.layout();
+      } else if (typeof Isotope === "function") {
+        iso = new Isotope(containerEl, {
+          itemSelector: ".isotope-item",
+          layoutMode: "masonry"
+        });
+        // primer layout
+        iso.layout();
+      } else {
+        console.warn("[portfolio-dynamic] Isotope no está disponible en la página.");
+      }
+      renderedCount += slice.length;
+    };
+
+    if (typeof imagesLoaded === "function") {
+      imagesLoaded(nodes, { background: true }, finalizeAppend);
+    } else {
+      // sin imagesLoaded, hacemos un pequeño delay para que carguen los tamaños
+      setTimeout(finalizeAppend, 30);
+    }
+  }
+
+  // ====== 6) Inicializa filtros + carga progresiva ======
   function initPortfolio(options) {
     const {
       filtersSelector = "#portfolio-filters",
       containerSelector = "#portfolio-container",
-      items = portfolioItems
+      items = itemsWithDefaults
     } = options || {};
 
     const filtersEl = document.querySelector(filtersSelector);
@@ -814,57 +848,41 @@ function renderItems(containerEl, items) {
       return;
     }
 
+    // Filtros
     renderFilters(filtersEl, items);
-    renderItems(containerEl, items);
 
-    function doIsotopeInit() {
-      if (typeof Isotope !== "function") {
-        console.warn("[portfolio-dynamic] Isotope no está disponible en la página.");
-        return;
-      }
-      const iso = new Isotope(containerEl, {
-        itemSelector: ".isotope-item",
-        layoutMode: "masonry"
-      });
+    // Primer bloque
+    renderChunk(containerEl, items, 0, PAGE_SIZE);
 
-      // Click de filtros
-      filtersEl.addEventListener("click", function (e) {
-        if (e.target.tagName !== "LI") return;
-        const filter = e.target.getAttribute("data-filter");
+    // Click de filtros
+    filtersEl.addEventListener("click", function (e) {
+      if (e.target.tagName !== "LI") return;
+      const filter = e.target.getAttribute("data-filter");
 
-        // activa visualmente
-        filtersEl.querySelectorAll("li").forEach(li => li.classList.remove("filter-active"));
-        e.target.classList.add("filter-active");
+      filtersEl.querySelectorAll("li").forEach(li => li.classList.remove("filter-active"));
+      e.target.classList.add("filter-active");
 
+      if (iso) {
         iso.arrange({ filter });
-      });
-
-      // Recalcular cuando cambie el tamaño y tras imágenes
-      window.addEventListener("resize", () => iso.layout());
-
-      // GLightbox (opcional)
-      if (typeof GLightbox === "function") {
-        GLightbox({ selector: ".glightbox" });
-      } else {
-        console.warn("[portfolio-dynamic] GLightbox no está disponible en la página.");
       }
-    }
+    });
 
-    // Espera a que todas las imágenes estén cargadas para evitar cortes/cropping
-    const imgsLoadedAvailable = (typeof imagesLoaded === "function");
-    if (imgsLoadedAvailable) {
-      imagesLoaded(containerEl, { background: true }, function () {
-        doIsotopeInit();
-      });
-    } else {
-      // Fallback si no está imagesLoaded: intenta después de window.load
-      if (document.readyState === "complete") {
-        // Intenta un pequeño delay para que terminen de cargar
-        setTimeout(doIsotopeInit, 50);
-      } else {
-        window.addEventListener("load", () => setTimeout(doIsotopeInit, 50));
-      }
-    }
+    // Sentinel para cargar más al hacer scroll
+    const sentinel = document.createElement('div');
+    sentinel.id = 'portfolio-sentinel';
+    // Lo ponemos después del contenedor (fuera del grid para no afectar layout)
+    containerEl.parentElement.appendChild(sentinel);
+
+    const io = new IntersectionObserver((entries) => {
+      if (!entries[0].isIntersecting) return;
+      if (renderedCount >= items.length) return;
+      renderChunk(containerEl, items, renderedCount, PAGE_SIZE);
+    }, { rootMargin: '600px 0px' });
+
+    io.observe(sentinel);
+
+    // Recalcular layout al redimensionar
+    window.addEventListener("resize", () => iso && iso.layout());
   }
 
   // Auto-init al cargar el DOM
@@ -872,7 +890,7 @@ function renderItems(containerEl, items) {
     initPortfolio();
   });
 
-  // También exponemos la función por si quieres llamarla manualmente con otras opciones
+  // Exponer API por si quieres re-inicializar con otros datos
   window.PortfolioDynamic = { init: initPortfolio };
 
 })();
