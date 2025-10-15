@@ -955,6 +955,7 @@ section,
   transition: transform .25s ease;
   background: #eee;      /* esqueleto gris mientras carga */
 }
+
 .portfolio .portfolio-item:hover img{
   transform: scale(1.02);
 }
@@ -1563,6 +1564,17 @@ section,
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
+}
+
+/* Estado visual del botón deshabilitado del formulario */
+.php-email-form button[disabled],
+.php-email-form button.disabled,
+.php-email-form input[type="submit"][disabled],
+.php-email-form input[type="submit"].disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none; /* evita focos/clicks */
+  filter: grayscale(20%);
 }
 
 /*--------------------------------------------------------------
